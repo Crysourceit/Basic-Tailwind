@@ -513,10 +513,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -527,24 +523,8 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.h-3\/4 {
-  height: 75%;
-}
-
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
 .h-60 {
   height: 15rem;
-}
-
-.w-60 {
-  width: 15rem;
 }
 
 .w-1\/2 {
