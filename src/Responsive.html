@@ -11,6 +11,10 @@
 
 <body class="m-0">
     <a href="/src/index.html">Page 1</a>
+    <a href="/src/Grid_Layout.html">Page 3</a>
+    <a href="/src/Layer_Apply.html">Page 4</a>
+    <a href="/src/Component.html">Page 5</a>
+    <a href="/src/Utility_Class.html">Page 6</a>
 
     <!-- Container $ Breakpoint -->
     <div class="container bg-red-500 mx-auto mb-2">
@@ -59,7 +63,24 @@
         <div class="w-80 h-10 bg-red-500">box 2</div>
         <div class="w-80 h-10 bg-red-500">box 3</div>
     </div>
+    
+    <!-- Grow & Shrink -->
+    <div class="bg-green-300 mt-3 w-auto flex flex-wrap-reverse ">
+        <div class="w-80 h-10 bg-red-500 flex-1">box 1</div>
+        <div class="w-80 h-10 bg-red-500 flex-1">box 2</div>
+        <div class="w-80 h-10 bg-red-500 flex-1">box 3</div>
+    </div>
 
+    <div class="bg-green-300 mt-3 w-auto flex flex-wrap-reverse ">
+        <div class="w-80 h-10 bg-red-500">box 1</div>
+        <div class="w-80 h-10 bg-green-500 flex-grow">box 2</div>
+        <div class="w-80 h-10 bg-blue-500">box 3</div>
+    </div>
+    <div class="bg-green-300 mt-3 w-auto flex flex-wrap-reverse ">
+        <div class="w-80 h-10 bg-red-500 flex-auto">box 1</div>
+        <div class="w-80 h-10 bg-green-500 flex-shrink">box 2</div>
+        <div class="w-80 h-10 bg-blue-500 flex-auto">box 3</div>
+    </div>
 
 </body>
 
